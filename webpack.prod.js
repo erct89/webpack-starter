@@ -7,7 +7,7 @@ const MinifyPlugin = require("babel-minify-webpack-plugin");
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const PATH = path.resolve(__dirname, 'dist-dev');
+const PATH = path.resolve(__dirname, 'dist');
 
 module.exports = {
   mode: 'production',
