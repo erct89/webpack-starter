@@ -1,0 +1,8 @@
+:root {
+  --color-gray: #898989;
+}
+
+html, body {
+  box-sizing: border-box;
+  background-color: var(--color-gray, gray);
+}

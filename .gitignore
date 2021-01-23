@@ -1,0 +1,6 @@
+# carpeta de depencencies
+node_modules/
+
+# carpetas de despliege.
+dist/
+dist-dev/
