@@ -9,7 +9,7 @@
     "build:dev": "rm -rf ./dist-dev && webpack --config webpack.config.js",
     "build:docs": "rm -rf ./docs && npm run build:prod && mv ./dist ./docs",
     "init": "npm i",
-    "start": "webpack serve --open --port 8989 --entry dist-dev"
+    "start": "webpack serve --open --port 8989"
   },
   "author": "Emilio AG",
   "license": "ISC",
